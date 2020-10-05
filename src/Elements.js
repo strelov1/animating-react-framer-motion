@@ -41,3 +41,11 @@ export const Card = styled.div`
     width: 100%;
   }
 `;
+
+export const ModalContainer = styled.div`
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  z-index: 1;
+`;
